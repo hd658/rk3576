@@ -16,3 +16,7 @@ several of them using the Restructured Text markup notation.
 Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
+
+
+这个仓库是为了测试一下我的keyboard_to_led事件处理程序是否能正常工作的。练习一下内核代码的编写。
+文件所在目录：drivers/input/
