@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright (c) 2024 Rockchip Electronics Co., Ltd.
+ *
+ */
+
+/dts-v1/;
+
+#include "elf2-common.dtsi"
+#include "rk3576-linux.dtsi"
+#include "elf2-3576-cam.dtsi"
+
+/ {
+	model = "ELFBoard elf2 Board";
+	compatible = "ELFBoard,elf2", "rockchip,rk3576";
+};
