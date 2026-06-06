@@ -258,6 +258,14 @@ void led_blink_set_oneshot(struct led_classdev *led_cdev,
  * Set an LED's brightness, and, if necessary, cancel the
  * software blink timer that implements blinking when the
  * hardware doesn't. This function is guaranteed not to sleep.
+ * 
+ * 
+ *  * led_set_brightness - 设置 LED 亮度
+ * @led_cdev: 要设置的 LED
+ * @brightness: 要设置的亮度值
+ *
+ * 设置 LED 的亮度，并在必要时取消软件闪烁定时器（该定时器在硬件
+ * 不支持闪烁时模拟闪烁功能）。此函数保证不会睡眠。
  */
 void led_set_brightness(struct led_classdev *led_cdev, unsigned int brightness);
 
